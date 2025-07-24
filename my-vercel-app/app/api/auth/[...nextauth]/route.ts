@@ -3,7 +3,7 @@
 import NextAuth from "next-auth";
 import SpotifyProvider from "next-auth/providers/spotify";
 
-async function refreshAccessToken(token) {
+async function refreshAccessToken(token: any) {
   try {
     const url = "https://accounts.spotify.com/api/token";
 
